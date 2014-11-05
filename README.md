@@ -1,4 +1,4 @@
-Carrinho-de-Compras-PHP-POO
+Carrinho de Compras || PHP-POO
 ===========================
 
 Sistema com Administrador do site e carrinho de compras funcional
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `produtos` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
--- Extraindo dados da tabela `produtos`
+-- INSERINDO dados da tabela `produtos`
 --
 
 INSERT INTO `produtos` (`id`, `nome`, `descricao`, `preco`, `estoque`, `categoria`) VALUES
