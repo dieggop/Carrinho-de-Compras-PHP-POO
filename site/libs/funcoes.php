@@ -1,0 +1,18 @@
+<?php
+
+/*
+** Arquivo que inclui todas as funções do diretório "funcoes/"
+*/
+
+//este script é incluído na index, por isso deve-se adicionar "libs/" à definição do diretório
+$dir = "libs" . BARRA . "funcoes" . BARRA;
+
+$open = opendir ($dir);
+while (($file = readdir ($open)) !== false)
+{
+	if ($file == "." || $file == "..")
+	    continue;
+	require_once $dir . $file;
+}
+closedir ($open);
+?>

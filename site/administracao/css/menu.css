@@ -1,0 +1,12 @@
+.sidebarmenu ul{margin:0;padding:0;list-style-type:none;font:10px tahoma;width:180px;}
+.sidebarmenu ul li{position:relative;}
+.sidebarmenu ul li a{display:block;overflow:auto;color:black;text-decoration:none;padding:6px;border-bottom:1px solid #CCCCCC;}
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{background-color:#FFFFFF;}
+.sidebarmenu ul li a:visited{color:black;}
+.sidebarmenu ul li a:hover{background-color:#CCCCCC;}
+
+.sidebarmenu ul li ul{position:absolute;width:170px;top:0;visibility:hidden;}
+.sidebarmenu a.subfolderstyle{background:url(../img/seta-menu(t).jpg)no-repeat 97% 50%;}
+
+* html .sidebarmenu ul li{float:left;height:1%;}
+* html .sidebarmenu ul li a{height:1%;}

@@ -1,0 +1,7 @@
+.celulas{
+    text-align: center;
+	border-right: dashed 1px black;
+	border-bottom: dashed 1px black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

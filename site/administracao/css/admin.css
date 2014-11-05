@@ -1,0 +1,60 @@
+/* Corpo da Pagina */
+body{text-align:center;font:10px tahoma;color:#333333;margin: 0 0 0 0; }
+/*-----------------*/
+
+/* Layout do Admin*/
+div.CabecalhoFaixa{background:#990000;width:100%;height:170px;top:10px;left:0;position:absolute;z-index:1;}
+
+#Total            {width:950px;min-height:750px;height:auto !important;margin:0 auto;text-align:left;position:relative;z-index:2;}
+#SubTotal         {float:left;width:950px;min-height:750px;height:auto !important;}
+
+div.FundoLogo     {float:left;display:inline;margin:10px 0 0 -20px;width:241px;height:215px;position:relative;z-index:2;}
+div.Logo          {float:left;margin:27px 0 0 62px;display:inline;width:auto;position:relative;z-index:3;}
+
+#Rodape           {float:left;width:950px;min-height:150px;height:auto !important;margin-top:50px;background:#990000;text-align:right;color:#FFFFFF;}
+/*----------------*/
+
+/* Estilo dos Links */
+a:link    {text-decoration:none;color:#ffffff;}
+a:visited {text-decoration:none;color:#ffffff;}
+a:hover   {text-decoration:none;color:#ffffff;}
+a:active  {text-decoration:none;color:#ffffff;}
+/*------------------*/
+
+/* Miolo do Admin */
+#Menus       {float:left;width:226px;min-height:402px;height:auto !important;margin:230px 0 0 -220px;}
+#SubMenus    {float:left;width:226px;min-height:402px;height:auto !important;}
+
+#Conteudo    {float:left;width:668px;min-height:402px;height:auto !important;margin:230px 0 0 5px;}
+#SubConteudo {float:left;width:668px;min-height:402px;height:auto !important;}
+/*----------------*/
+
+p.titulo{font:10px tahoma;color:#333333;margin:0 0 0 0;}
+p.linhadivisoriacentro{text-align:left;margin:5px 0 0 0;}
+p.descricao{font:13px Arial;color:#333333;margin:22px 0 0 0;font-weight:bold;}
+p.legendacaixasdetexto{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+.caixatexto{font:10px tahoma;color:#666666;width:100px;border:1px solid #C8C8C8;border-bottom:none;border-right:none;padding-left:6px;}
+
+.caixadetexto{font:10px tahoma;color:#666666;width:162px;margin-top:-7px;border:1px solid #C8C8C8;padding-left:6px;}
+.caixamensagem{font:10px tahoma;color:#666666;width:650px;margin-top:-7px;border:1px solid #C8C8C8;padding-left:6px;}
+.botaoinseirealterar{font:10px tahoma;color:#666666;text-align:right;}
+
+p.legendacaixasdetexto a:link{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+p.legendacaixasdetexto a:visited{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+p.legendacaixasdetexto a:hover{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+p.legendacaixasdetexto a:active{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+
+p.mensagenserro{font:10px tahoma;color:#FF0000;margin:10px 0 0 0;font-weight:bold;}
+p.mensagensaviso{font:10px tahoma;color:#FF0000;margin:10px 0 0 0;font-weight:bold; text-align:right;}
+
+
+div.adm_cadastrados{float:left;margin:25px 0 0 0;display:inline;}
+p.adm_cadastrados{float:left;width:290px;margin:10px 0 0 0;display:inline;font:10px tahoma;color:#666666;}
+div.botao_Edt_Exc{float:right;margin:7px 0 0 0;display:inline;width:65px;height:17px;}
+div.linha{float:left;margin:6px 0 0 0;width:665px;font-size:1px;display:inline;}
+
+div.paginacao{float:left;margin:25px 0 0 0;display:inline;width:668px;height:15px;text-align:center;}
+div.paginacao a:link{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+div.paginacao a:visited{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+div.paginacao a:hover{font:10px tahoma;color:#666666;margin:0 0 0 0;}
+div.paginacao a:active{font:10px tahoma;color:#666666;margin:0 0 0 0;}

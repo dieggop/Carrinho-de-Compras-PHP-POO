@@ -1,0 +1,18 @@
+<?php
+
+/*
+** Arquivo que inclui todas as classes do diretório "classes/"
+*/
+
+//este script é incluído na index, por isso deve-se adicionar "libs/" à definição do diretório
+$dir = "libs" . BARRA . "classes" . BARRA;
+
+$open = opendir ($dir);
+while (($file = readdir ($open)) !== false)
+{
+	if ($file == "." || $file == "..")
+	    continue;
+	require_once ($dir . $file);
+}
+closedir ($open);
+?>
